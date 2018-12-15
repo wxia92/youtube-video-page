@@ -1,0 +1,344 @@
+button, p, span {
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  margin: 0;
+}
+header {
+  background-color: rgb(39, 38, 38);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main {
+  background-color: white;
+
+
+}
+
+#video {
+  background-color: black;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+}
+#nonVideo{
+  display:flex;
+}
+
+#videoInfo {
+  border: 0;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+#relatedVideos{
+  padding-left: 20px;
+  background-color: white;
+  width: 39%;
+  
+}
+
+#data {
+  border: 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#dropdown {
+  height: 18px; /* 4x .dropdownBar margin + 3x .dropdownBar height*/
+  width: 18px;
+  margin: 0 20px;
+}
+
+.dropdownBar {
+  height: 2px; 
+  margin: 3px 0;
+  background-color: white;
+}
+
+img.logo{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.searchBar {
+  width: 100%;
+  min-width: 0%;
+}
+
+.upload {
+  margin-right: 10px;
+}
+
+.apps {
+  margin: auto 10px;
+}
+
+.messages {
+  margin: auto 10px;
+}
+
+.notifications {
+  margin: auto 10px;
+}
+
+.profile {
+  margin-left: 10px; margin-right: 20px;
+}
+
+.title {
+margin-top: 0; margin-left: 15px; margin-bottom: 8px;
+padding-top: 20px;
+font-size: 18px;
+}
+
+.viewCount {
+  margin-top: 0; margin-left: 15px; 
+  font-size: 14px;
+  color: gray;
+  }
+
+.interactive {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightInteractive {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share {
+  color: gray;
+  font-size: 13px;
+}
+
+.thumbsUp, .thumbsDown {
+  display: inline-block;
+ 
+}
+
+.thumbsUpCount, .thumbsDownCount{
+  color:gray;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.share {
+margin-right: 10px;
+}
+
+.addTo{
+  margin-right: 10px;
+}
+
+.elipses{
+  margin-right: 5px;
+}
+
+.likeBar{
+  display:flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.likeBarBlue{
+  width: 80px;
+  height: 3px;
+  background-color: rgb(86, 79, 179);
+  margin-top: 20px;
+}
+
+.likeBarGray{
+  width: 8px;
+  height: 3px;
+  background-color: lightgray;
+  margin-top: 20px;
+  margin-right: 120px;
+}
+
+hr{
+  margin-top: 0; margin-bottom:0;
+  width: 95%;
+  color: rgb(238, 238, 238);
+}
+
+.description{
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+
+.channelInfo{
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileInfo{
+  margin-left: 15px;
+  display: flex;
+}
+
+.channelName{
+  padding-top: 5px;
+  margin:0;
+}
+
+.published{
+  font-size: 10px;
+  color: gray;
+  margin:0;
+}
+
+.sub{
+  margin: 0 9px;
+}
+.subscriptions{
+  display: flex;
+  align-items: center;
+}
+
+.videoDescription{
+  margin-left: 15px;
+}
+
+.showMore{
+  font-size: 12px;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.license, .category{
+  display: flex;
+}
+
+.cellLeft {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  color: gray;
+  width: 100px;
+  flex-grow: 1;
+  font-size: 13px;
+}
+
+.cellRight{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-grow: 15;
+  width: 100px;
+  font-size: 13px;
+}
+
+.comments {
+  margin-top: 15px;
+  background-color: white;
+}
+
+.commentCount{
+  margin: 0 15px;
+}
+
+
+.addComment {
+  align-items: center;
+  display: flex;
+  margin-left: 15px; margin-top: 20px; margin-bottom: 30px;
+}
+
+.commentBox{
+  margin-left: 15px;
+  padding-bottom:10px;
+  width: 90%;
+}
+
+.typeComment{
+  margin-bottom: 5px; margin-top: 0;
+  font-size: 14px;
+  color:gray;
+}
+
+.commentUnderline {
+  width: 100%;
+}
+
+.existingComment {
+  display:flex;
+  margin-left: 15px;
+  margin-top: 30px; margin-bottom: 30px;
+}
+
+.commentData {
+  margin-left: 15px;
+}
+
+.user {
+  margin-top: 0; margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.commentAge {
+  color: gray;
+  font-size: 14px;
+}
+
+.reply {
+  color: gray;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+button.sub {
+  background-color: lightgray;
+  border: 0px solid white;
+  border-radius: '1px';
+  padding: 3px 4px;
+  font: 700 13px/27px Arial, sans-serif;
+}
+
+.publishDate{
+  margin-left: 10px;
+}
+
+.relatedVideoInfo{
+  display: flex;
+  margin: 15px 0;
+}
+
+.relatedChannel, .relatedViews{
+  margin: 5px 0;
+  color:Gray;
+  font-size:14px;
+}
+
+#header-left{
+  display:flex;
+
+}
+
+#header-right{
+  display:flex;
+
+}
+
+#header-center{
+  display:flex;
+  width: 400px;
+  justify-content: center;
+}
+
